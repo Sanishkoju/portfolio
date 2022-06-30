@@ -1,0 +1,524 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.main{
+    width:100%;
+    background :linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(../images/60644.jpg);
+    background-position: center;
+    background-size:cover;
+    height:109vh;
+    
+}
+.navbar{
+    width:1200px;
+    height:75px;
+    margin:auto;
+
+}
+.icon{
+    width:200px;
+    float:left;
+    height:20px;
+}
+.logo{
+    color:rgb(36, 130, 158);
+    
+    font-weight: bolder;
+    padding-top: 5px;
+    
+    font-size: 35px;
+    font-family:Arial;
+    padding-left:10px;
+    float:left;
+    
+
+}
+.menu{
+    width:400px;
+    padding:0px;
+    padding-top: 15px;
+   float:left;
+   height:20px;
+
+}
+.search{
+    padding-top: 15px;
+    
+
+}
+
+ul{
+    float:left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ul li{
+    list-style: none;
+    margin-left:62px ;
+    margin-top:27px ;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration:none ;
+    color:yellowgreen ;
+    font-family:arial ;
+    font-weight:bold ;
+    transition:0.4s ease-in-out;
+
+}
+ul li a:hover{
+    color:blue;
+}
+.search{
+    width:330px;
+    float:left;
+    margin-left:270px;
+}
+.srch{
+    font-family:'Times New Roman' ;
+    width:200px;
+    height:40px;
+    background:transparent ;
+    border:1px solid ridge;
+    margin-top:19px ;
+    color:white;
+    border-right:none;
+    font-size: 16px;
+    padding:10px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+
+}
+.btn{
+    width:100px;
+    height:40px;
+    background:orange;
+    border:2px solid pink;
+    margin-top: 13px;
+    color:white;
+    font-size:15px;
+    border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.btn:focus{
+    outline:none;
+}
+.search:focus{
+    outline:none;
+}
+.content{
+    padding-left: 60px;
+    padding-top:20px;
+    border: 5px;
+    text-align:left;
+    font-style: italic;
+    color:white;
+}
+.par{
+   font-size:20px;
+    color:black;
+    font-style: initial;
+    font-weight: bolder;
+}
+.cn button{
+    color:black;
+    
+  
+    
+    
+}
+
+.cn:hover{
+    background-color:red;
+}
+.personimg img{
+    width:15px;
+    height:20px;
+}
+.personimg img:hover{
+    cursor:pointer;
+
+}
+.form{
+    width:200px;
+    height:240px;
+    background:linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    
+    top: -25px;
+    left:870px;
+    border-radius:10px;
+    padding:25px;
+    
+}
+.btn:hover{
+    background-color: brown;
+    cursor:pointer;
+
+
+}
+.contain{
+    
+    
+   
+}
+.picture{
+    position:absolute;
+    top:20px;
+    left:5px;
+    cursor:pointer ;
+
+}
+
+.line{
+    margin-left: 950px;
+}
+.sidebar{
+    width:115vw;
+    height:10vw;
+    margin-top: 10px;
+   
+    background-color: brown;
+}
+.sidebarGo{
+    transform:translate(0px,-150px);
+     position:absolute;
+     
+ }
+
+.contactform{
+   
+}
+.contactform h1{
+    text-align: center;
+    color: rgb(165, 63, 42);
+    padding-top:5px ;
+
+}
+.contactform form{
+    padding-top: 5px;
+    padding-left: 60px;
+    color:red;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+.contactform form div{
+    padding:10px;
+    border-radius: 12px;
+    color:rgb(0, 255, 132);
+    
+    
+   
+    
+    
+    
+    
+}
+.contactform form div input{
+    border-radius:8px;
+  
+    margin:5px;
+    background-color: blanchedalmond;
+    margin-left: 10px;
+   
+    
+    
+  
+   
+}
+#emailHelp{
+    color:rgb(50, 205, 169);
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: italic;
+    margin-left: 30px;
+}
+#form-check{
+    flex-direction: row;
+    margin-left: 30px;
+    color:brown
+  
+
+
+}
+.btn:hover{
+    font-size:12px ;
+    width:90px;
+    height:40px;
+    background-color: antiquewhite;
+    color: rgb(98, 98, 231);
+    border-radius:12px;
+    padding:7px 12px;
+    margin:0 3px;
+    cursor: pointer;
+
+
+
+}
+.btn{
+    border-radius:12px;
+    font-size: 12px;
+    width:90px;
+    height:40px;
+    padding:7px 12px;
+    margin:0 3px;
+    color: antiquewhite;
+    background-color: rgb(165, 134, 237);
+}
+.myintro{
+    text-align: center;
+    font-style: inherit;
+    text-shadow: 10px;
+    padding-bottom:0px ;
+
+
+
+}
+.sa{
+    text-decoration: double;
+    font-family: 'Courier New', Courier, monospace ;
+    text-shadow: 50px;
+    color:brown;
+    font-size:15px;
+    font-style: italic;
+    font-weight: bolder;
+    padding-top:-10px;
+
+}
+.detail{
+    text-align: end;
+    font-style: italic;
+    font-size:30px;
+
+}
+.detail h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: inherit;
+    color: brown;
+    font-size: 45px;
+}
+.detailp2{
+
+}
+.detail button{
+    background-color:rgb(118, 118, 195);
+    border-radius:5px;
+    width:100px;
+    height:30px;
+    font-weight: bolder;
+    color:rgb(12, 13, 12);
+    font-style: oblique ;
+
+}
+.detail button:hover{
+    background-color:rgb(118, 195, 130);
+    color:rgb(118, 118, 195);
+    border-radius:5px;
+    font-style: oblique ;
+    cursor: pointer;
+
+}
+
+.main img{
+    background-image: -o-linear-gradient();
+}
+.introdetail{
+    padding-top: 50px;
+     display:flex; 
+     justify-content:center ; 
+     flex-direction: row; 
+   
+   
+ 
+}
+.detail{
+    
+    /* padding-top: 70px; */
+    padding-left: 100px;
+    color:yellowgreen;
+    font-size: 20px;
+    font-style: italic;
+    text-align: left;
+    
+    
+
+}
+.perrimg img{
+    /*display:flex;
+    justify-content: left;
+    flex-direction: row;*/
+    padding-left: 30px;
+    width:200px;
+    height:300px;
+    margin-left: 40px;
+    padding-top:10px;
+    padding-left: 10px;
+    border-radius:50px ;
+}
+.imgg{
+    display:flex;
+    flex-direction: row;
+}
+.skill{
+    text-align:left;
+    color:brown;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom:10px;
+
+}
+.skull{
+    margin-left: 150px;
+}
+.Skillitem{
+display:flex;
+align-items: left;
+flex-direction: row;
+padding-top: 10px;
+padding-left: 100px;
+color:black;
+font-size:20px;
+font-style: normal;
+}
+.skills{
+height:6px;
+width:200px;
+border:2px solid white;
+background-color: rgb(172, 82, 82);
+}
+.skillss{
+height:6px;
+width:250px;
+border:2px solid white;
+background-color: rgb(8, 213, 28);
+}
+.skillsss{
+height:6px;
+width:290px;
+border:2px solid white;
+background-color: rgb(110, 165, 42);}
+.picture{
+    position:absolute;
+    top:10px;
+    left:10px;
+    cursor:pointer ;
+}
+.perimg img{
+    width:250px;
+    height:350px;
+    border-radius: 90px;
+    padding:10px;
+}
+.myservice{
+    text-align: center;
+    color: azure;
+}
+.saa{
+    text-decoration: double;
+    font-family: 'Courier New', Courier, monospace ;
+    text-shadow: 50px;
+    color:brown;
+    color:brown;
+    font-size:15px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.detaill{
+    height: 250px;
+    padding-top: 100px;
+    display:flex; 
+    justify-content:center ; 
+    flex-direction: row;
+    
+    color:azure
+    
+}
+.detaill1{
+    width:240px;
+    margin:15px;
+    padding-top:25px;
+    text-align: center;
+    
+
+     background-color: rgb(27, 24, 24); 
+    color:azure
+}
+.detaill1 h3{
+    text-decoration: underline;
+    padding-bottom:30px ;
+}
+
+.detaill2{
+    width:240px;
+    margin:15px;
+    padding-top:25px;
+    text-align: center;
+    
+    background-color: rgb(27, 24, 24); 
+    color:azure
+
+}
+.detaill2 h3{
+    text-decoration: underline;
+    padding-bottom:30px ;}
+.detaill3{
+    width:240px;
+    margin:15px;
+    padding-top:25px;
+    text-align: center;
+    background-color: rgb(27, 24, 24); 
+    
+    color:azure
+
+}
+.detaill3 h3{
+    text-decoration: underline;
+    padding-bottom:30px ;
+}
+.mains{
+    background-color: black;
+}
+
+.servicess{
+    padding:50px;
+    background-color: antiquewhite;
+    text-align: center;
+    height:120px;
+    font-size: 20px;
+}
+.contents{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.contents h1{
+    
+    font-size:40px;
+    color:black;
+}
+.contents h2{
+    
+    font-size:30px;
+    color:black;
+}
+.contents P{
+    
+    font-size:20px;
+    color:palevioletred;
+}
+.sidebar{
+margin-top:10px;
+padding-top: 10px;
+}
+
+
+.perimg{
+
+}
